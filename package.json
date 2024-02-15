@@ -1,0 +1,29 @@
+{
+  "name": "fin-app-components",
+  "version": "1.0.0",
+  "description": "FIN Application Components",
+  "main": "index.js",
+  "repository": "https://github.com/OpenGov/financials",
+  "author": "OpenGov",
+  "license": "UNLICENSED",
+  "private": true,
+  "packageManager": "yarn@3.8.0",
+  "workspaces": [
+    "app-components/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run build",
+    "build:watch": "lerna run --parallel --no-bail build:watch",
+    "clean": "lerna run --parallel clean",
+    "dev": "yarn clean && yarn run build && yarn run build:watch",
+    "dist": "lerna run build && lerna run lint && lerna run test",
+    "format": "yarn prettier --write ./app-components/**/*",
+    "lint": "lerna run lint",
+    "tableflip": "rm -rf ./app-components/*/node_modules && rm -rf node_modules",
+    "test": "lerna run test"
+  },
+  "devDependencies": {
+    "lerna": "^8.1.2"
+  }
+}
