@@ -1,0 +1,19 @@
+{
+  "name": "project-creator",
+  "version": "1.0.0",
+  "description": "Create projects",
+  "author": "developers",
+  "license": "UNLICENSED",
+  "main": "lib/project-creator.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/project-creator.test.js"
+  }
+}
