@@ -10,7 +10,8 @@
   "packageManager": "yarn@3.8.0",
   "workspaces": [
     "app-components/*",
-    "packages/*"
+    "packages/*",
+    "sites/*"
   ],
   "scripts": {
     "build": "lerna run build",
