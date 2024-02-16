@@ -8,7 +8,8 @@ This is a monorepo for React based component project, using familiar tools such 
 - ESLint
 - Prettier
 - Jest
-- Storybook
+- Storybook (pending)
 - Lerna
 
 - // TODO GraphQL code generator for making GraphQL API calls
+
