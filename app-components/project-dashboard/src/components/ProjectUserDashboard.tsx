@@ -11,11 +11,11 @@ export const ProjectUserDashboard: React.FunctionComponent<IProjectUserDashboard
   const { orgName, page } = props;
 
   return (
-    <>
+    <div>
       <div>Dashboard or projects for {orgName}</div>
-      <p>Display project page# {page}</p>
+      <p>Displaying project page# {page}</p>
       <ProjectsBrowser orgName={orgName} nbrOfProjects={10} page={page} />
       <ProjectViewer projectName="The matrix" />
-    </>
+    </div>
   );
 }
