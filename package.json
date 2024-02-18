@@ -10,7 +10,6 @@
   "packageManager": "yarn@3.8.0",
   "workspaces": [
     "app-components/*",
-    "packages/*",
     "sites/*"
   ],
   "scripts": {
