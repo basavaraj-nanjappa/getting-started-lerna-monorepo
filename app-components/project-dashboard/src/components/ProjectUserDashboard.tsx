@@ -13,7 +13,7 @@ export const ProjectUserDashboard: React.FunctionComponent<IProjectUserDashboard
   return (
     <div>
       <div>Dashboard or projects for {orgName}</div>
-      <p>Displaying project page# {page}</p>
+      <p>Display project page# {page}</p>
       <ProjectsBrowser orgName={orgName} nbrOfProjects={10} page={page} />
       <ProjectViewer projectName="The matrix" />
     </div>
