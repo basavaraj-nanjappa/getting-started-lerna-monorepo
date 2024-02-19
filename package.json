@@ -21,7 +21,8 @@
     "format": "yarn prettier --write ./app-components/**/*",
     "lint": "lerna run lint",
     "tableflip": "rm -rf ./app-components/*/node_modules && rm -rf node_modules",
-    "test": "lerna run test"
+    "test": "lerna run test",
+    "storybook": "lerna run --scope @myorg/storybook storybook"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",

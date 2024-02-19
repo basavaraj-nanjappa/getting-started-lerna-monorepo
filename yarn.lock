@@ -2335,6 +2335,38 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@myorg/storybook@workspace:sites/storybook":
+  version: 0.0.0-use.local
+  resolution: "@myorg/storybook@workspace:sites/storybook"
+  dependencies:
+    "@myorg/project-browser": "workspace:^"
+    "@myorg/project-dashboard": "workspace:^"
+    "@myorg/projects-app-components": "workspace:^"
+    "@storybook/addon-essentials": ^7.6.16
+    "@storybook/addon-interactions": ^7.6.16
+    "@storybook/addon-links": ^7.6.16
+    "@storybook/addon-onboarding": ^1.0.11
+    "@storybook/blocks": ^7.6.16
+    "@storybook/react": ^7.6.16
+    "@storybook/react-vite": ^7.6.16
+    "@storybook/test": ^7.6.16
+    "@types/react": ^18.2.55
+    "@types/react-dom": ^18.2.19
+    "@typescript-eslint/eslint-plugin": ^6.21.0
+    "@typescript-eslint/parser": ^6.21.0
+    "@vitejs/plugin-react": ^4.2.1
+    eslint: ^8.56.0
+    eslint-plugin-react-hooks: ^4.6.0
+    eslint-plugin-react-refresh: ^0.4.5
+    eslint-plugin-storybook: ^0.8.0
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    storybook: ^7.6.16
+    typescript: ^5.2.2
+    vite: ^5.1.0
+  languageName: unknown
+  linkType: soft
+
 "@ndelangen/get-tarball@npm:^3.0.7":
   version: 3.0.9
   resolution: "@ndelangen/get-tarball@npm:3.0.9"
@@ -13512,38 +13544,6 @@ __metadata:
   checksum: 50e582e44f8cd4f2a53eb776832cf71e89b605209790397725afa5de16360570323101528c5b99f8fac83a3a2da79986ed8505f4586cb5d788618def5b2ff88e
   languageName: node
   linkType: hard
-
-"storybook@workspace:sites/storybook":
-  version: 0.0.0-use.local
-  resolution: "storybook@workspace:sites/storybook"
-  dependencies:
-    "@myorg/project-browser": "workspace:^"
-    "@myorg/project-dashboard": "workspace:^"
-    "@myorg/projects-app-components": "workspace:^"
-    "@storybook/addon-essentials": ^7.6.16
-    "@storybook/addon-interactions": ^7.6.16
-    "@storybook/addon-links": ^7.6.16
-    "@storybook/addon-onboarding": ^1.0.11
-    "@storybook/blocks": ^7.6.16
-    "@storybook/react": ^7.6.16
-    "@storybook/react-vite": ^7.6.16
-    "@storybook/test": ^7.6.16
-    "@types/react": ^18.2.55
-    "@types/react-dom": ^18.2.19
-    "@typescript-eslint/eslint-plugin": ^6.21.0
-    "@typescript-eslint/parser": ^6.21.0
-    "@vitejs/plugin-react": ^4.2.1
-    eslint: ^8.56.0
-    eslint-plugin-react-hooks: ^4.6.0
-    eslint-plugin-react-refresh: ^0.4.5
-    eslint-plugin-storybook: ^0.8.0
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    storybook: ^7.6.16
-    typescript: ^5.2.2
-    vite: ^5.1.0
-  languageName: unknown
-  linkType: soft
 
 "stream-shift@npm:^1.0.0":
   version: 1.0.3
