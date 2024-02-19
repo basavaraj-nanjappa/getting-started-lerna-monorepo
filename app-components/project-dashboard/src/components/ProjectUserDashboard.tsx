@@ -1,4 +1,6 @@
 import React from 'react';
+import { ProjectViewer } from '@myorg/project-viewer';
+import { ProjectsBrowser } from '@myorg/project-browser';
 
 export interface IProjectUserDashboardProps {
   orgName: string;
@@ -9,9 +11,11 @@ export const ProjectUserDashboard: React.FunctionComponent<IProjectUserDashboard
   const { orgName, page } = props;
 
   return (
-    <>
+    <div>
       <div>Dashboard or projects for {orgName}</div>
       <p>Display project page# {page}</p>
-    </>
+      <ProjectsBrowser orgName={orgName} nbrOfProjects={10} page={page} />
+      <ProjectViewer projectName="The matrix" />
+    </div>
   );
 }
